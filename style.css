@@ -5,30 +5,31 @@
 }
 
 body {
-    background: #273557;
+    background: #242933;
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins;
     align-items: center;
     justify-content: center;
-    min-width: 100vh;
+    min-height: 100vh;
+
+    border: 0;
 }
 
 .container {
-    background-color: #4564b9;
-    border-radius: 8px;
-    border: 3px solid #dadada;
+    background-color: #2F3644;
+    border-radius: 5px;
+    border: 2px solid #3E445B;
     width: 450px;
     max-width: 100%;
-    margin-top: 40px;
 }
 
 .header {
     padding: 30px 40px;
 }
 
-.header h2{
+.header h2 {
     font-weight: 600;
-    color: #acbae1;
+    color: #ACBAE1;
     font-size: 30px;
 }
 
@@ -36,7 +37,7 @@ body {
     padding: 0 40px 30px;
 }
 
-.form-control{
+.form-control {
     margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
@@ -45,39 +46,41 @@ body {
 .form-control label {
     display: inline-block;
     margin-bottom: 5px;
-    color: #828cad;
+    color: #828CAD;
 }
 
 .form-control input {
-    border: 2px solid #3e445b;
-    border-radius: 4px;
+    border: 2px solid #3E445B;
+    border-radius: 5px;
     outline: 0;
+
     display: block;
+
     font-size: 14px;
+
     width: 100%;
     padding: 15px;
 }
 
-
 .form-control.success input {
-    border: 3px solid green;
+    border: 3px solid #4ECA64;
 }
 
 .form-control.error input {
-    border: 3px solid red;
+    border: 3px solid #DB5A5A;
 }
 
-.form-control.success i .img-success {
+.form-control.error i.img-error {
     visibility: visible;
 }
 
-.form-control.error i .img-error{
+.form-control.success i.img-success {
     visibility: visible;
 }
 
-.form-control.error small {
+.form-control.error small{
+    color: #DB5A5A;
     visibility: visible;
-    color: #db5a5a;
 }
 
 .form-control i {
@@ -92,17 +95,20 @@ body {
     position: absolute;
     margin-top: 5px;
     font-size: 14px;
+
 }
 
 .form button {
-    background-color: #6c63ff;
-    border-radius: 8px;
+    background-color: #6C63FF;
+    border-radius: 5px;
     color: #fff;
     padding: 15px;
     font-size: 15px;
     font-weight: 600;
     width: 100%;
+
     margin-top: 5px;
+
     cursor: pointer;
 }
 
